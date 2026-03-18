@@ -1,6 +1,6 @@
 import argparse
-from bot.client import BinanceFuturesClient
-from bot.orders import create_order
+from Bot.client import BinanceFuturesClient
+from Bot.orders import create_order
 
 def main():
     parser = argparse.ArgumentParser(description="Binance Futures Testnet Trading Bot")
